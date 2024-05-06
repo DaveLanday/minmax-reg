@@ -35,6 +35,7 @@ pub mod dot;
 pub mod maxreg;
 
 /// This module contains a Min Register
+#[cfg(feature = "num")]
 pub mod minreg;
 
 /// This module contains a dense Identifier.
